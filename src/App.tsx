@@ -6,6 +6,9 @@ import Loader from "./components/utils/Loader";
 const FormSubmission = lazy(
   () => import("./components/pages/form/FormSubmission")
 );
+const JokesGenerator = lazy(
+  () => import("./components/pages/jokes/JokesGenerator")
+);
 
 function App() {
   return (
@@ -14,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" Component={Homepage} />
           <Route path="/form-submission" Component={FormSubmission} />
+          <Route path="/Jokes-Generator" Component={JokesGenerator} />
         </Routes>
       </Suspense>
     </Router>

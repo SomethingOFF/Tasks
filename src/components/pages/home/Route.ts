@@ -6,4 +6,9 @@ export const Routes = [
         url: "/form-submission",
         Icon: FormInput
     },
+    {
+        name: "JokesGenerator",
+        url: "/Jokes-Generator",
+        Icon: FormInput
+    },
 ]
