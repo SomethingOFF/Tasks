@@ -11,4 +11,9 @@ export const Routes = [
         url: "/Jokes-Generator",
         Icon: FormInput
     },
+    {
+        name: "PasswordValidator",
+        url: "/password-validator",
+        Icon: FormInput
+    },
 ]

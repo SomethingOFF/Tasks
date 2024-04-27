@@ -9,6 +9,9 @@ const FormSubmission = lazy(
 const JokesGenerator = lazy(
   () => import("./components/pages/jokes/JokesGenerator")
 );
+const PasswordValidator = lazy(
+  () => import("./components/pages/password/PasswordValidator")
+);
 
 function App() {
   return (
@@ -18,6 +21,7 @@ function App() {
           <Route path="/" Component={Homepage} />
           <Route path="/form-submission" Component={FormSubmission} />
           <Route path="/Jokes-Generator" Component={JokesGenerator} />
+          <Route path="/password-validator" Component={PasswordValidator} />
         </Routes>
       </Suspense>
     </Router>
