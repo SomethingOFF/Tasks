@@ -16,4 +16,9 @@ export const Routes = [
         url: "/password-validator",
         Icon: FormInput
     },
+    {
+        name: "DiceRoll",
+        url: "/dice-roll",
+        Icon: FormInput
+    },
 ]

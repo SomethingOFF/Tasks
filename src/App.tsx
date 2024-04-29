@@ -12,6 +12,7 @@ const JokesGenerator = lazy(
 const PasswordValidator = lazy(
   () => import("./components/pages/password/PasswordValidator")
 );
+const DiceRoll = lazy(() => import("./components/pages/diceroll/DiceRoll"));
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/form-submission" Component={FormSubmission} />
           <Route path="/Jokes-Generator" Component={JokesGenerator} />
           <Route path="/password-validator" Component={PasswordValidator} />
+          <Route path="/dice-roll" Component={DiceRoll} />
         </Routes>
       </Suspense>
     </Router>
